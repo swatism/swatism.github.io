@@ -171,23 +171,49 @@ px      68    160    252    */
   p {
     font-size: 13px;
   }
+  header .navbar {
+    padding-bottom: 0px;
+  }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  header .navbar-brand {
+    padding-top: 10px;
+  }
   #slider {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 100px;
   }
   #slider .block {
     padding-left: 0px;
   }
+  #slider .block h1.main-brand-text {
+    font-size: 30px;
+  }
   #slider .block h1 {
     font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
+  #slider .block .brand-motive h1 {
+    line-height: 50px;
+  }  
   #slider .block p {
+    padding-top: 20px;
     font-size: 13px;
   }
+
+  #global-header .block h1 {
+    font-weight: 300;
+    font-size: 40px;
+  }
+
+  .header-bar {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
   /*--
 	wrapper Start 
 --*/
@@ -205,7 +231,7 @@ px      68    160    252    */
 	service Start 
 --*/
   #service {
-    padding-top: 100px;
+    padding: 50px;
   }
   #service .thumbnail {
     padding-bottom: 70px;
@@ -344,7 +370,7 @@ px      68    160    252    */
   /*--
 	slider-contact Start 
 --*/
-  #slider-contact {
+  /* #slider-contact {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -357,7 +383,7 @@ px      68    160    252    */
   #slider-contact .block p {
     font-size: 11px;
     line-height: 25px;
-  }
+  } */
   /*--
 	wrapper-contact Start 
 --*/
