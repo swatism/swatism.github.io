@@ -1,0 +1,379 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Staatliches', cursive;*/
+  }
+
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url('https://d1af89beukha9h.cloudfront.net/wp-content/uploads/2018/01/Global-In-Car-Wi-Fi-Market-1024x576.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Staatliches', cursive!important;
+ }
+
+ hr{
+    width: 200px;
+    border:3px solid #5b5d6b!important;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: -20px!important;
+}
+
+.bg-nav{
+    background-color: white;
+ }
+
+ .nav{
+    font-family: 'Staatliches', cursive!important;
+ }
+
+ .nav-item a:hover{
+  border-bottom: 2px solid red;
+ }
+
+ .main-bg{
+  width: 90%;
+  height: 400px;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  transform: translate(-50% -50%);
+  text-align: center;
+  color: white;
+  margin-top: -100px;
+ }
+
+  .mainbg-part h1{
+    font-size: 6.5rem;
+  }
+  .mainbg-part h2{
+    font-size: 6rem;
+  }
+
+ .mainbg-part h2:hover{
+  text-shadow: 4px 4px 4px red;
+ }
+
+ .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+    font-family: 'Work Sans 27px', sans-serif;
+
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Work Sans 27px', sans-serif;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.contact-list{
+  font-family: 'Work Sans 27px', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+  .carousel-inner img {
+      width: 100%;
+      height: 60%;
+  }
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.navbar-nav ul li a{
+    font-family: 'Staatliches', cursive;
+}
+
+h1{
+    font-family: 'Staatliches', cursive!important;
+}
+
+h1:hover{
+  text-shadow: 2px 2px 4px red;
+}
+
+p, figcaption{
+    font-family: 'Work Sans 27px', sans-serif;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+.values_list li{
+   font-family: 'Work Sans 27px', sans-serif;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.main_values{
+    box-shadow: 2px 2px 2px red!important;
+    margin: 15px 0;
+}
+
+.main_values:hover{
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.heading_font::after{
+    width: 20%;
+    height: 10px;
+    margin: auto;
+    border:1px solid red;
+}
+
+.aboutus_value_added{
+   font-family: 'Work Sans 27px', sans-serif;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+.aboutus_value_added ul li ol{
+    padding-left: 100px;
+}
+
+.gallerysetting{
+            padding: 20px 0px;
+            overflow-x: hidden;
+        }
+
+.gallery-block{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.gallery-block.compact-gallery .item{
+  overflow: hidden;
+  margin-bottom: 0;
+  background: black;
+  opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image{
+  transition: 0.8s ease;
+}
+
+.gallery-block.compact-gallery .item .info{
+  position: relative;
+    display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description{
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+    color: #fff;
+    transition: 0.8s ease;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, transparent, rgb(214, 63, 64));
+}
+
+.gallery-block.compact-gallery .item .description .description-heading{
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.gallery-block.compact-gallery .item .description .description-body{
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+  color: white;
+}
+
+
+
+.values_section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+.mbr-fonts-style {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 15px;
+    font-family: 'Staatliches', cursive;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width: 600px){
+  .mainbg-part h1{
+    font-size: 4.5rem;
+  }
+  .mainbg-part h2{
+    font-size: 4rem;
+  }
+  .main-bg{
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  transform: translate(-50% -50%);
+  text-align: center;
+  color: white;
+  margin-top: -100px;
+ }
+}
+
+
+@media (min-width: 300px) {
+  .gallery-block.compact-gallery .item .description {
+    opacity: 0;
+  }
+
+  .gallery-block.compact-gallery .item a:hover .description {
+    opacity: 1;
+  }
+
+  .gallery-block .zoom-on-hover:hover .image {
+    transform: scale(1.3);
+    opacity: 0.7;
+  }
+
+   .main_values{
+    /*background-color: rgba(0,0,0,0.5);*/
+    box-shadow: none;
+    margin: 0 0; }
+
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+}
+
+#page-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: rgba(245, 154, 35, 0.8) url(../images/up-arrow.png) no-repeat center center;
+  background-size: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  text-decoration: none;
+}
+
+#page-top:hover {
+  background-color: #555;
+}
+
+.gallery-block img {
+  padding: 10px;
+}
